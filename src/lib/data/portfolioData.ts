@@ -62,25 +62,26 @@ export const TIMELINE_DATA: TimelineItem[] = [
 		age: "Usia 12 Tahun",
 		title: "Perkenalan Koding & Logika Komputer",
 		subtitle: "Rasa Ingin Tahu & Belajar Mandiri",
-		description: "Pertama kali tersentuh oleh keajaiban baris kode pada usia 12 tahun. Mengutak-atik logika pemrograman sederhana, HTML/CSS, dan struktur web dasar.",
+		description: "Pertama kali tersentuh oleh keajaiban baris kode pada usia 12 tahun karena game Minecraft Java Edition. Mengutak-atik pemrograman sederhana; Java, PHP, Python, C++, JavaScript, HTML/CSS, dan struktur web dasar.",
 		icon: "Sparkles",
 		highlights: [
-			"Eksplorasi dasar logika pemrograman & web layout",
+			"Eksplorasi dasar logika pemrograman dan algoritma",
 			"Sensasi pertama melihat kode menjadi tampilan di layar",
 			"Menumbuhkan minat mendalam pada teknologi"
 		]
 	},
 	{
-		year: "Fase Pendalaman",
-		age: "Usia 18 Tahun",
+		year: "Fase Pendalaman & Titik Balik",
+		age: "Usia 18 - 21 Tahun",
 		title: "Rekayasa Perangkat Lunak & Santri NU",
-		subtitle: "Koding Serius & Keilmuan Pesantren",
-		description: "Mulai secara serius memperdalam Software Engineering di usia 18 tahun. Di saat bersamaan aktif menimba ilmu sebagai santri NU dengan hafalan kitab-kitab klasik dan fiqih.",
+		subtitle: "Koding Serius & Kebangkitan Penuntut Ilmu",
+		description: "Mulai secara serius memperdalam Software Engineering di usia 18 tahun. Di saat bersamaan menimba ilmu sebagai santri NU dengan hafalan kitab-kitab klasik dan fiqih. Sempat mengalami penurunan parah saat penyesuaian penuntut ilmu Islam ini akibat time management yang buruk & mengabaikan pembelajaran hingga peringkat sempat ke posisi belakang (padahal awalnya 5 besar). Namun pada usia 21 tahun, berkomitmen penuh untuk memperbaiki semuanya dan mengendalikan segalanya dengan Akal yang Terjaga, dan Jiwa yang Menyala.",
 		icon: "BookOpen",
 		highlights: [
+			"Mengenali WordPress, Laravel",
 			"Penguasaan JavaScript/TypeScript modern & Fullstack Web",
 			"Mendalami khazanah pesantren NU (hafalan kitab-kitab & fiqih)",
-			"Membangun kedisiplinan ilmu syar'i & logika sistem"
+			"Kebangkitan Usia 21: Komitmen mengendalikan hidup dengan Akal yang Terjaga, dan Jiwa yang Menyala"
 		]
 	},
 	{
