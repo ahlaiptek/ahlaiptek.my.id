@@ -30,7 +30,7 @@
 				Jejak Perjalanan
 			</span>
 			<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
-				Dari Rasa Ingin Tahu Hingga Membangun <span class="text-emerald-600 dark:text-emerald-400">barizaloka.id</span>
+				Dari Rasa Ingin Tahu Hingga Menjadi <span class="text-emerald-600 dark:text-emerald-400">Software Engineer Profesional</span>
 			</h2>
 			<p class="text-slate-600 dark:text-slate-300 text-base">
 				Perjalanan dedikasi panjang dalam dunia pemrograman, berfokus pada perkembangan keahlian rekayasa perangkat lunak yang beretika dan bernilai tinggi.
