@@ -22,12 +22,12 @@
 					<div>
 						<h3 class="text-lg font-bold text-white leading-tight">{PERSONAL_INFO.name}</h3>
 						<span class="text-xs text-emerald-400 font-semibold">
-							Software Engineer
+							Software Engineer | Santri NU | Entrepreneur
 						</span>
 					</div>
 				</div>
 				<p class="text-xs text-slate-400 leading-relaxed max-w-md">
-					Simpatisan Muhammadiyah & Software Engineer. Menyukai dunia koding sejak usia 12 tahun, bertransformasi secara serius sejak usia 18 tahun, dan berkomitmen menghadirkan karya rekayasa perangkat lunak yang berintegritas, efisien, dan amanah.
+					Santri NU & Simpatisan Muhammadiyah. Meneladani KH Ahmad Dahlan sebagai pedagang & pendakwah: Software Engineer, penuntut ilmu Islam (hafalan kitab-kitab & fiqih), dan pengusaha jasa website, bimbel koding, serta cita-cita ekspansi penyedia hosting/server.
 				</p>
 			</div>
 

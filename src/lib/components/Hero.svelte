@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { PERSONAL_INFO } from '$lib/data/portfolioData';
-	import { Code2, Compass, ArrowRight, ShieldCheck, CheckCircle2, Award, Terminal, Cpu } from 'lucide-svelte';
+	import { Code2, Compass, ArrowRight, ShieldCheck, CheckCircle2, Award, Terminal, BookOpen, Rocket, Server } from 'lucide-svelte';
 </script>
 
 <section id="hero" class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white transition-colors duration-300">
@@ -21,6 +21,10 @@
 				<!-- Badges -->
 				<div class="flex flex-wrap items-center justify-center lg:justify-start gap-2.5">
 					<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700/50 shadow-sm">
+						<BookOpen class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+						Santri NU & Hafalan Kitab
+					</span>
+					<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900 dark:bg-amber-950/50 dark:text-amber-300 border border-amber-300 dark:border-amber-700/50 shadow-sm">
 						<Compass class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
 						Simpatisan Muhammadiyah
 					</span>
@@ -28,9 +32,9 @@
 						<Terminal class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
 						Software Engineer
 					</span>
-					<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900 dark:bg-amber-950/40 dark:text-amber-300 border border-amber-300 dark:border-amber-700/40">
-						<Cpu class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
-						Tech Enthusiast
+					<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-teal-100 text-teal-900 dark:bg-teal-950/50 dark:text-teal-300 border border-teal-300 dark:border-teal-700/50">
+						<Rocket class="w-3.5 h-3.5 text-teal-600 dark:text-teal-400" />
+						Islamic Entrepreneur
 					</span>
 				</div>
 
@@ -40,45 +44,45 @@
 						Halo, Saya <span class="bg-gradient-to-r from-emerald-600 via-teal-600 to-amber-600 dark:from-emerald-400 dark:via-teal-300 dark:to-amber-300 bg-clip-text text-transparent">{PERSONAL_INFO.name}</span>
 					</h1>
 					<p class="text-lg sm:text-xl font-bold text-emerald-700 dark:text-emerald-400/90">
-						Software Engineer yang Menyukai Dunia Koding Sejak Usia 12 Tahun
+						Software Engineer, Penuntut Ilmu Islam & Entrepreneur
 					</p>
 				</div>
 
 				<!-- Bio Narrative -->
 				<p class="text-base text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-					Memulai petualangan koding sejak umur 12 tahun, lalu memperdalam rekayasa perangkat lunak secara serius pada umur 18 tahun. Berdedikasi menjadi <span class="text-slate-900 dark:text-white font-bold">programmer yang handal & software engineer profesional</span> yang memegang teguh nilai integritas dan amanah.
+					Menyukai koding sejak umur 12 tahun & mendalami software engineering sejak usia 18 tahun. Sebagai <span class="text-slate-900 dark:text-white font-bold">santri NU</span>, saya bertekad membawa khazanah keilmuan pesantren (hafalan kitab-kitab & fiqih) ke persyarikatan Muhammadiyah, serta meneladani <span class="text-emerald-700 dark:text-emerald-400 font-bold">KH Ahmad Dahlan</span> sebagai pedagang/pengusaha (jasa website, bimbel koding, dan cita-cita penyedia hosting/server) sekaligus pendakwah.
 				</p>
 
 				<!-- Action Buttons -->
 				<div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
 					<a
-						href="#journey"
+						href="#values"
 						class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-slate-950 bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-400 bg-[length:200%_auto] hover:bg-right transition-all duration-500 shadow-lg shadow-emerald-500/25 hover:scale-105 active:scale-95"
 					>
-						Lihat Perjalanan Karir
+						Lihat Nilai & Cita-Cita
 						<ArrowRight class="w-4 h-4 ml-2" />
 					</a>
 					<a
-						href="#skills"
+						href="#journey"
 						class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-semibold text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900/80 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-300 dark:border-slate-700/80 transition-all duration-300 hover:scale-105 active:scale-95 shadow-sm"
 					>
-						Skill & Tech Stack
+						Perjalanan Koding & Santri
 					</a>
 				</div>
 
 				<!-- Key Trust Features -->
-				<div class="pt-4 grid grid-cols-2 sm:grid-cols-3 gap-3 text-left border-t border-slate-200 dark:border-slate-800/80">
+				<div class="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-left border-t border-slate-200 dark:border-slate-800/80">
 					<div class="flex items-center gap-2 text-xs font-medium text-slate-700 dark:text-slate-300">
-						<CheckCircle2 class="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
-						<span>Pengalaman Sejak Usia Dini</span>
+						<BookOpen class="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+						<span>Santri NU & Hafalan Kitab/Fiqih</span>
 					</div>
 					<div class="flex items-center gap-2 text-xs font-medium text-slate-700 dark:text-slate-300">
-						<ShieldCheck class="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
-						<span>Prinsip Integritas Muhammadiyah</span>
+						<Compass class="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
+						<span>Teladan KH Ahmad Dahlan</span>
 					</div>
 					<div class="flex items-center gap-2 text-xs font-medium text-slate-700 dark:text-slate-300">
-						<Award class="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
-						<span>Software Berstandar Tinggi</span>
+						<Server class="w-4 h-4 text-teal-600 dark:text-teal-400 shrink-0" />
+						<span>Jasa Web, Bimbel & Hosting Vision</span>
 					</div>
 				</div>
 
@@ -105,26 +109,27 @@
 						</div>
 
 						<!-- Profile Summary inside Code Editor Style -->
-						<div class="font-mono text-xs text-slate-200 space-y-2 leading-relaxed bg-slate-950 p-4 rounded-xl border border-slate-800 shadow-inner">
-							<p><span class="text-emerald-400">const</span> <span class="text-amber-300">developer</span> = &#123;</p>
+						<div class="font-mono text-xs text-slate-200 space-y-2 leading-relaxed bg-slate-950 p-4 rounded-xl border border-slate-800 shadow-inner overflow-x-auto">
+							<p><span class="text-emerald-400">const</span> <span class="text-amber-300">profile</span> = &#123;</p>
 							<p class="pl-4"><span class="text-slate-400">nama:</span> <span class="text-teal-300">"{PERSONAL_INFO.name}"</span>,</p>
-							<p class="pl-4"><span class="text-slate-400">identitas:</span> <span class="text-teal-300">"Simpatisan Muhammadiyah"</span>,</p>
-							<p class="pl-4"><span class="text-slate-400">mulaiKoding:</span> <span class="text-amber-400">12</span> <span class="text-slate-500">// tahun</span>,</p>
-							<p class="pl-4"><span class="text-slate-400">seriusSoftwareEng:</span> <span class="text-amber-400">18</span> <span class="text-slate-500">// tahun</span>,</p>
-							<p class="pl-4"><span class="text-slate-400">fokus:</span> <span class="text-teal-300">"Fullstack Web & Systems Engineering"</span>,</p>
-							<p class="pl-4"><span class="text-slate-400">misi:</span> <span class="text-teal-300">"Kode Bersih, Berintegritas & Berkemajuan"</span></p>
+							<p class="pl-4"><span class="text-slate-400">santri:</span> <span class="text-teal-300">"NU (Hafalan Kitab & Fiqih)"</span>,</p>
+							<p class="pl-4"><span class="text-slate-400">afiliasi:</span> <span class="text-teal-300">"Simpatisan Muhammadiyah"</span>,</p>
+							<p class="pl-4"><span class="text-slate-400">teladan:</span> <span class="text-teal-300">"KH Ahmad Dahlan (Pedagang & Pendakwah)"</span>,</p>
+							<p class="pl-4"><span class="text-slate-400">peran:</span> [<span class="text-amber-400">"Software Engineer"</span>, <span class="text-amber-400">"Penuntut Ilmu"</span>, <span class="text-amber-400">"Entrepreneur"</span>],</p>
+							<p class="pl-4"><span class="text-slate-400">bisnis:</span> [<span class="text-teal-300">"Jasa Website"</span>, <span class="text-teal-300">"Bimbel Koding"</span>],</p>
+							<p class="pl-4"><span class="text-slate-400">citaCita:</span> <span class="text-emerald-400">"Ekspansi Hosting & Server Provider"</span></p>
 							<p>&#125;;</p>
 						</div>
 
 						<!-- Milestone Stats Grid -->
 						<div class="grid grid-cols-2 gap-3 mt-4">
 							<div class="bg-slate-100 dark:bg-slate-950/70 p-3 rounded-xl border border-slate-200 dark:border-slate-800 text-center">
-								<span class="block text-2xl font-bold text-amber-600 dark:text-amber-400">12 Thn</span>
-								<span class="text-[11px] font-medium text-slate-600 dark:text-slate-400">Mulai Tertarik Koding</span>
+								<span class="block text-xl font-bold text-amber-600 dark:text-amber-400">12 Thn & 18 Thn</span>
+								<span class="text-[11px] font-medium text-slate-600 dark:text-slate-400">Awal Koding & RPL Serius</span>
 							</div>
 							<div class="bg-slate-100 dark:bg-slate-950/70 p-3 rounded-xl border border-slate-200 dark:border-slate-800 text-center">
-								<span class="block text-2xl font-bold text-emerald-600 dark:text-emerald-400">18 Thn</span>
-								<span class="text-[11px] font-medium text-slate-600 dark:text-slate-400">Fokus Software Eng</span>
+								<span class="block text-xl font-bold text-emerald-600 dark:text-emerald-400">Santri NU</span>
+								<span class="text-[11px] font-medium text-slate-600 dark:text-slate-400">Kitab Turats & Fiqih</span>
 							</div>
 						</div>
 
@@ -132,11 +137,11 @@
 						<div class="mt-4 p-3.5 rounded-xl bg-emerald-50 dark:bg-gradient-to-r dark:from-emerald-950/80 dark:via-teal-950/80 dark:to-slate-900 border border-emerald-200 dark:border-emerald-700/40 flex items-center justify-between">
 							<div class="flex items-center gap-3">
 								<div class="w-9 h-9 rounded-lg bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-700 dark:text-emerald-400">
-									<Code2 class="w-5 h-5" />
+									<BookOpen class="w-5 h-5" />
 								</div>
 								<div>
-									<h4 class="text-sm font-bold text-slate-900 dark:text-white">Software Engineering</h4>
-									<p class="text-[11px] text-slate-600 dark:text-slate-300">Modern Web Stack & Clean Architecture</p>
+									<h4 class="text-sm font-bold text-slate-900 dark:text-white">Ilmu Pesantren & Software Engineer</h4>
+									<p class="text-[11px] text-slate-600 dark:text-slate-300">Meneladani KH Ahmad Dahlan</p>
 								</div>
 							</div>
 						</div>

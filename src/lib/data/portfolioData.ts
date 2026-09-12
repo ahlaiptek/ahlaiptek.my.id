@@ -43,21 +43,16 @@ export interface ServiceItem {
 export const PERSONAL_INFO = {
 	name: "Muhammad Ahlat Thoba'i",
 	nickName: "Ahlat",
-	tagline: "Software Engineer & Founder barizaloka.id",
-	subtagline: "Simpatisan Muhammadiyah | Tech Enthusiast | Solusi Web Profesional",
-	bioSummary: "Menyukai dunia pemrograman sejak usia 12 tahun, memperdalam rekayasa perangkat lunak secara serius sejak usia 18 tahun. Memegang teguh semangat Islam Berkemajuan & integritas tinggi untuk menghadirkan solusi teknologi yang bermanfaat dan bernilai tinggi.",
-	businessName: "barizaloka.id",
-	businessTagline: "Jasa Pembuatan Website & Aplikasi Web Profesional",
-	businessWebsite: "https://barizaloka.id",
-	whatsappNumber: "6285123456789", // Contoh kontak WA profesional
-	email: "ahlat@barizaloka.id",
+	tagline: "Software Engineer | Santri NU | Penuntut Ilmu Islam | Entrepreneur",
+	subtagline: "Sinergi Keilmuan Pesantren NU & Muhammadiyah | Meneladani KH Ahmad Dahlan",
+	bioSummary: "Santri NU & Simpatisan Muhammadiyah yang menyukai koding sejak usia 12 tahun dan memperdalam rekayasa perangkat lunak sejak usia 18 tahun. Bertekad membawa keilmuan tradisi pesantren NU (hafalan kitab-kitab & fiqih) ke Muhammadiyah, serta meneladani sosok KH Ahmad Dahlan sebagai pengusaha dan pendakwah melalui software engineering, bimbel koding, dan penyedia hosting/server.",
+	email: "ahlatthobai@gmail.com",
 	location: "Indonesia",
-	status: "Open for Projects & Collaborations",
+	status: "Software Engineer, Penuntut Ilmu Islam & Entrepreneur",
 	socials: {
 		github: "https://github.com",
 		linkedin: "https://linkedin.com",
-		instagram: "https://instagram.com",
-		whatsapp: "https://wa.me/6285123456789"
+		instagram: "https://instagram.com"
 	}
 };
 
@@ -65,81 +60,81 @@ export const TIMELINE_DATA: TimelineItem[] = [
 	{
 		year: "Masa Awal",
 		age: "Usia 12 Tahun",
-		title: "Perkenalan Pertama dengan Dunia Koding",
-		subtitle: "Rasa Ingin Tahu & Eksplorasi Logika Komputer",
-		description: "Pertama kali tersentuh oleh keajaiban baris kode. Dimulai dari mengutak-atik HTML/CSS dasar, logika pemrograman sederhana, dan eksperimen membuat halaman web kecil.",
+		title: "Perkenalan Koding & Logika Komputer",
+		subtitle: "Rasa Ingin Tahu & Belajar Mandiri",
+		description: "Pertama kali tersentuh oleh keajaiban baris kode pada usia 12 tahun. Mengutak-atik logika pemrograman sederhana, HTML/CSS, dan struktur web dasar.",
 		icon: "Sparkles",
 		highlights: [
-			"Belajar logika dasar & struktur HTML/CSS",
-			"Sensasi pertama melihat kode menjadi visual di layar",
-			"Membangun landasan antusiasme pada dunia digital"
+			"Eksplorasi dasar logika pemrograman & web layout",
+			"Sensasi pertama melihat kode menjadi tampilan di layar",
+			"Menumbuhkan minat mendalam pada teknologi"
 		]
 	},
 	{
 		year: "Fase Pendalaman",
 		age: "Usia 18 Tahun",
-		title: "Mulai Lebih Serius & Dedikasi Tinggi",
-		subtitle: "Transisi Menuju Software Engineering",
-		description: "Mengambil langkah serius untuk menjadikan pemrograman sebagai fondasi karir. Mendalami struktur data, rekayasa perangkat lunak, arsitektur web modern, serta manajemen database.",
-		icon: "Code2",
+		title: "Rekayasa Perangkat Lunak & Santri NU",
+		subtitle: "Koding Serius & Keilmuan Pesantren",
+		description: "Mulai secara serius memperdalam Software Engineering di usia 18 tahun. Di saat bersamaan aktif menimba ilmu sebagai santri NU dengan hafalan kitab-kitab klasik dan fiqih.",
+		icon: "BookOpen",
 		highlights: [
-			"Penguasaan JavaScript/TypeScript modern & Framework Web",
-			"Memahami arsitektur RESTful API & manajemen database",
-			"Eksplorasi best practices, clean code, & problem solving"
+			"Penguasaan JavaScript/TypeScript modern & Fullstack Web",
+			"Mendalami khazanah pesantren NU (hafalan kitab-kitab & fiqih)",
+			"Membangun kedisiplinan ilmu syar'i & logika sistem"
 		]
 	},
 	{
-		year: "Profesi & Karir",
-		age: "Hingga Sekarang",
-		title: "Menjadi Software Engineer Berkualitas",
-		subtitle: "Standar Industri & Islam Berkemajuan",
-		description: "Terus mengasah kemampuan sebagai Software Engineer yang adaptif, fokus pada kualitas sistem, keamanan, kecepatan peforma, serta kemudahan bagi pengguna.",
-		icon: "Laptop",
+		year: "Sinergi Keilmuan",
+		age: "Fase Integrasi",
+		title: "Santri NU di Persyarikatan Muhammadiyah",
+		subtitle: "Membawa Khazanah Pesantren NU ke Muhammadiyah",
+		description: "Membawa dan mendialogkan keilmuan tradisi pesantren NU (hafalan kitab & fiqih) ke dalam persyarikatan Muhammadiyah yang berkemajuan.",
+		icon: "Compass",
 		highlights: [
-			"Spesialisasi pada modern web stack (SvelteKit, React, Node.js, Cloud)",
-			"Menerapkan prinsip integritas, kedisiplinan, & hasil kerja terbaik (Ihsan)",
-			"Menangani proyek-proyek web komersial dan organisasi"
+			"Sinergi kedalaman kitab pesantren NU & modernitas Muhammadiyah",
+			"Prinsip integritas, kejujuran, dan ihsan dalam berkarya",
+			"Semangat ukhuwah dan kemaslahatan ummat"
 		]
 	},
 	{
-		year: "Puncak Langkah",
-		age: "Era Profesional",
-		title: "Mendirikan barizaloka.id",
-		subtitle: "Jasa Pembuatan Website Profesional & Amanah",
-		description: "Membangun unit usaha barizaloka.id untuk memberikan solusi digital bagi pelaku usaha, instansi, dan organisasi yang membutuhkan website modern berstandar tinggi.",
+		year: "Visi & Cita-cita",
+		age: "Era Sekarang & Depan",
+		title: "Meneladani Sosok KH Ahmad Dahlan",
+		subtitle: "Software Engineer, Penuntut Ilmu & Entrepreneur",
+		description: "Bercita-cita meneladani KH Ahmad Dahlan yang seorang pedagang/pengusaha sekaligus pendakwah: mengelola jasa website, bimbel koding, dan berikhtiar ekspansi ke penyedia hosting & server.",
 		icon: "Rocket",
 		highlights: [
-			"Platform pembuatan website siap pakai & custom web apps",
-			"Transparansi, garansi performa, & pendampingan teknis",
-			"Membantu transformasi digital UMKM dan instansi secara nasional"
+			"Pengembangan layanan Pembuatan Website & Custom Apps",
+			"Program Bimbel Koding (Bimbingan Belajar Pemrograman)",
+			"Target Ekspansi: Penyedia Infrastruktur Cloud Hosting & Server"
 		]
 	}
 ];
 
 export const MUHAMMADIYAH_VALUES: ValueItem[] = [
 	{
-		title: "Islam Berkemajuan & Teknologi",
-		subtitle: "Teknologi sebagai Alat Kebaikan",
-		description: "Memanfaatkan ilmu koding dan rekayasa perangkat lunak untuk kemajuan ummat, efisiensi bisnis, dan kemaslahatan bersama.",
-		icon: "Compass"
-	},
-	{
-		title: "Integritas & Amanah (Ihsan)",
-		subtitle: "Kualitas Tanpa Kompromi",
-		description: "Setiap baris kode dan layanan di barizaloka.id dibuat dengan transparansi, ketelitian, serta prinsip kerja terbaik.",
-		icon: "ShieldCheck"
-	},
-	{
-		title: "Pembelajar Sepanjang Hayat",
-		subtitle: "Continuous Improvement",
-		description: "Dunia teknologi bergerak cepat. Dari usia 12 tahun hingga saat ini, semangat belajar dan mengikuti perkembangan terkini tidak pernah padam.",
+		title: "Keilmuan Pesantren NU & Muhammadiyah",
+		subtitle: "Bridge of Islamic Scholarship",
+		description: "Membawa keilmuan tradisi pesantren NU seperti hafalan kitab-kitab klasik dan fiqih ke dalam persyarikatan Muhammadiyah yang berkemajuan.",
 		icon: "BookOpen"
 	},
 	{
-		title: "Solutif & Berorientasi Manfaat",
-		subtitle: "Solusi Berkelanjutan",
-		description: "Fokus mendengarkan kebutuhan klien dan menghadirkan solusi sistem yang efisien, mudah digunakan, dan impactful.",
+		title: "Meneladani KH Ahmad Dahlan",
+		subtitle: "Pedagang, Pengusaha & Pendakwah",
+		description: "Bercita-cita seperti sosok KH Ahmad Dahlan: Menjadi seorang Software Engineer, penuntut ilmu Islam, sekaligus pengusaha yang berintegritas.",
+		icon: "Compass"
+	},
+	{
+		title: "Jasa Website & Bimbel Koding",
+		subtitle: "Edukasi & Solusi Digital",
+		description: "Mengembangkan bisnis jasa pembuatan website dan membuka program Bimbel Koding untuk mencetak generasi talenta digital yang unggul.",
 		icon: "Lightbulb"
+	},
+	{
+		title: "Cita-cita Server & Hosting Provider",
+		subtitle: "Expansion to Cloud Infrastructure",
+		description: "Berikhtiar dan berharap kelak dapat berekspansi menjadi penyedia infrastruktur cloud hosting & server mandiri berkualitas tinggi.",
+		icon: "ShieldCheck"
 	}
 ];
 

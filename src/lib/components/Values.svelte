@@ -28,13 +28,13 @@
 		<div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
 			<div class="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-950/60 rounded-full border border-amber-300 dark:border-amber-800/60">
 				<Sun class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
-				Prinsip & Nilai
+				Prinsip, Jati Diri & Cita-Cita
 			</div>
 			<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
-				Semangat <span class="bg-gradient-to-r from-emerald-600 to-amber-600 dark:from-emerald-400 dark:to-amber-300 bg-clip-text text-transparent">Islam Berkemajuan</span> & Rekayasa Teknologi
+				Sinergi Keilmuan Pesantren NU, <span class="bg-gradient-to-r from-emerald-600 to-amber-600 dark:from-emerald-400 dark:to-amber-300 bg-clip-text text-transparent">Muhammadiyah & Entrepreneurship</span>
 			</h2>
 			<p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed">
-				Sebagai seorang simpatisan Muhammadiyah, setiap langkah profesional dari koding hingga pengembangan proyek di <span class="text-emerald-700 dark:text-emerald-400 font-semibold">barizaloka.id</span> didasari oleh prinsip integritas, amanah, dan kemaslahatan bersama.
+				Membawa kedalaman tradisi keilmuan pesantren NU (hafalan kitab-kitab & fiqih) ke persyarikatan Muhammadiyah, serta meneladani KH Ahmad Dahlan sebagai pengusaha dan pendakwah.
 			</p>
 		</div>
 
@@ -63,7 +63,7 @@
 
 					<div class="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800/80 flex items-center text-xs font-medium text-slate-500 dark:text-slate-400 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
 						<Heart class="w-3.5 h-3.5 mr-1.5 text-amber-500 dark:text-amber-400" />
-						<span>Komitmen Karya Berkualitas</span>
+						<span>Integrasi Keilmuan & Karya</span>
 					</div>
 				</div>
 			{/each}
@@ -72,10 +72,10 @@
 		<!-- Quote Banner -->
 		<div class="mt-16 bg-emerald-50 dark:bg-gradient-to-r dark:from-emerald-950/70 dark:via-slate-900 dark:to-amber-950/50 border border-emerald-200 dark:border-emerald-800/40 rounded-2xl p-6 sm:p-8 text-center max-w-4xl mx-auto shadow-md">
 			<blockquote class="text-base sm:text-lg italic font-medium text-slate-800 dark:text-slate-200 leading-relaxed">
-				"Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia lainnya. Melalui software engineering dan barizaloka.id, saya berusaha menghadirkan teknologi yang mempermudah usaha dan mendatangkan keberkahan."
+				"Cita-citaku adalah seperti KH Ahmad Dahlan seorang pedagang dan pendakwah; berarti aku adalah seorang Software Engineer, penuntut ilmu Islam, serta pengusaha di bidang jasa website, bimbel koding, dan semoga kelak terwujud ekspansi ke penyedia hosting & server."
 			</blockquote>
 			<div class="mt-4 font-bold text-emerald-700 dark:text-emerald-400 text-sm">
-				— Muhammad Ahlat Thoba'i
+				— Muhammad Ahlat Thoba'i (Santri NU & Simpatisan Muhammadiyah)
 			</div>
 		</div>
 
