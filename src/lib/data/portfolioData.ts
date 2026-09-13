@@ -45,7 +45,7 @@ export const PERSONAL_INFO = {
 	nickName: "Ahlat",
 	tagline: "Software Engineer | Santri NU | Penuntut Ilmu Islam | Entrepreneur",
 	subtagline: "Sinergi Keilmuan Pesantren NU & Muhammadiyah | Meneladani KH Ahmad Dahlan",
-	bioSummary: "Santri NU & Simpatisan Muhammadiyah yang menyukai koding sejak usia 12 tahun dan memperdalam rekayasa perangkat lunak sejak usia 18 tahun. Bertekad membawa keilmuan tradisi pesantren NU (hafalan kitab-kitab & fiqih) ke Muhammadiyah, serta meneladani sosok KH Ahmad Dahlan sebagai pengusaha dan pendakwah melalui software engineering, bimbel koding, dan penyedia hosting/server.",
+	bioSummary: "Santri NU & Simpatisan Muhammadiyah yang menyukai koding sejak usia 12 tahun dan memperdalam rekayasa perangkat lunak sejak usia 18 tahun (termasuk pengalaman Laravel mulai dari Laravel 10 & WordPress dasar). Bertekad membawa keilmuan tradisi pesantren NU (hafalan kitab-kitab & fiqih) ke Muhammadiyah, serta meneladani sosok KH Ahmad Dahlan sebagai pengusaha dan pendakwah melalui software engineering, bimbel koding, dan penyedia hosting/server.",
 	email: "ahlatthobai@gmail.com",
 	location: "Indonesia",
 	status: "Software Engineer, Penuntut Ilmu Islam & Entrepreneur",
@@ -75,10 +75,11 @@ export const TIMELINE_DATA: TimelineItem[] = [
 		age: "Usia 18 - 21 Tahun",
 		title: "Rekayasa Perangkat Lunak & Santri NU",
 		subtitle: "Koding Serius & Kebangkitan Penuntut Ilmu",
-		description: "Mulai secara serius memperdalam Software Engineering di usia 18 tahun. Di saat bersamaan menimba ilmu sebagai santri NU dengan hafalan kitab-kitab klasik dan fiqih. Sempat mengalami penurunan parah saat penyesuaian penuntut ilmu Islam ini akibat time management yang buruk & mengabaikan pembelajaran hingga peringkat sempat ke posisi belakang (padahal awalnya 5 besar). Namun pada usia 21 tahun, berkomitmen penuh untuk memperbaiki semuanya dan mengendalikan segalanya dengan Akal yang Terjaga, dan Jiwa yang Menyala.",
+		description: "Mulai secara serius memperdalam Software Engineering di usia 18 tahun. Mempelajari dan mengembangkan aplikasi web dengan framework Laravel (berkelanjutan mulai dari Laravel 10+) serta pengelolaan website berbasis WordPress dasar. Di saat bersamaan menimba ilmu sebagai santri NU dengan hafalan kitab-kitab klasik dan fiqih. Sempat mengalami penurunan parah saat penyesuaian penuntut ilmu Islam ini akibat time management yang buruk & mengabaikan pembelajaran hingga peringkat sempat ke posisi belakang (padahal awalnya 5 besar). Namun pada usia 21 tahun, berkomitmen penuh untuk memperbaiki semuanya dan mengendalikan segalanya dengan Akal yang Terjaga, dan Jiwa yang Menyala.",
 		icon: "BookOpen",
 		highlights: [
-			"Mengenali WordPress, Laravel",
+			"Pengalaman Backend: Laravel (berkelanjutan mulai Laravel 10+)",
+			"Pengalaman CMS: WordPress dasar & pengelolaan situs",
 			"Penguasaan JavaScript/TypeScript modern & Fullstack Web",
 			"Mendalami khazanah pesantren NU (hafalan kitab-kitab & fiqih)",
 			"Kebangkitan Usia 21: Komitmen mengendalikan hidup dengan Akal yang Terjaga, dan Jiwa yang Menyala"
@@ -250,6 +251,7 @@ export const SKILL_CATEGORIES = [
 	{
 		title: "Backend & Database",
 		skills: [
+			{ name: "Laravel (Mulai v10+)", level: "Advanced" },
 			{ name: "Node.js / Express", level: "Advanced" },
 			{ name: "RESTful API Design", level: "Advanced" },
 			{ name: "PostgreSQL / MySQL", level: "Intermediate" },
@@ -258,8 +260,9 @@ export const SKILL_CATEGORIES = [
 		]
 	},
 	{
-		title: "Engineering Best Practices",
+		title: "CMS & Best Practices",
 		skills: [
+			{ name: "WordPress (Dasar / CMS)", level: "Intermediate" },
 			{ name: "Clean Code & Architecture", level: "Advanced" },
 			{ name: "Git & Version Control", level: "Expert" },
 			{ name: "Web Performance Optimization", level: "Expert" },

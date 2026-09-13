@@ -116,6 +116,7 @@
 							<p class="pl-4"><span class="text-slate-400">afiliasi:</span> <span class="text-teal-300">"Simpatisan Muhammadiyah"</span>,</p>
 							<p class="pl-4"><span class="text-slate-400">teladan:</span> <span class="text-teal-300">"KH Ahmad Dahlan (Pedagang & Pendakwah)"</span>,</p>
 							<p class="pl-4"><span class="text-slate-400">peran:</span> [<span class="text-amber-400">"Software Engineer"</span>, <span class="text-amber-400">"Penuntut Ilmu"</span>, <span class="text-amber-400">"Entrepreneur"</span>],</p>
+							<p class="pl-4"><span class="text-slate-400">keahlian:</span> [<span class="text-teal-300">"Laravel 10+"</span>, <span class="text-teal-300">"WordPress Dasar"</span>, <span class="text-teal-300">"SvelteKit"</span>],</p>
 							<p class="pl-4"><span class="text-slate-400">bisnis:</span> [<span class="text-teal-300">"Jasa Website"</span>, <span class="text-teal-300">"Bimbel Koding"</span>],</p>
 							<p class="pl-4"><span class="text-slate-400">citaCita:</span> <span class="text-emerald-400">"Ekspansi Hosting & Server Provider"</span></p>
 							<p>&#125;;</p>
